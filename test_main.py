@@ -43,7 +43,7 @@ class TestCSVProcessing:
         result = compute_aggregate(self.test_data, 'price', 'min', self.headers)
         assert result == 50.0
 
-    @patch('builtins.open', create=True) #@todo find out why this is important
+    @patch('builtins.open', create=True)
     def test_process_csv(self, mock_open):
         """Test complete CSV processing"""
         mock_file = mock_open.return_value.__enter__.return_value
