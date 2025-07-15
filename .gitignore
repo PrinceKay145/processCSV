@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+.pytest_cache
+.qodo
+.vscode
+.wake
+.coverage  
+
+test.csv
+products.csv
+.DS_Store
+100
