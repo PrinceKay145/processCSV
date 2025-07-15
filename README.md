@@ -5,7 +5,9 @@ This is a simple script to process CSV files and perform filtering and aggregati
 ## Usage
 
 Expecting a valid data
+
 Aggregate expected to be either `avg`, `max`, `min`
+
 Filter conditions expected to come after `--where`, can be numerical or string conditions
 
 ```bash
